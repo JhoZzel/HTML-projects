@@ -21,10 +21,11 @@ function cifrado_Cesar() {
             continue;
         }
         let num = (dato[i].charCodeAt(0) - a_i + clave) % 26 + a_i;
-        
+
         cifrado += String.fromCharCode(num);
     }
     console.log("Cifrado => ", cifrado);
 
     ob2.value = cifrado;
 }
+// ehhh
