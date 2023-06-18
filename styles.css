@@ -1,0 +1,28 @@
+*{    
+    background-color: black;
+    color: white;
+}
+.title{
+    text-align: center;
+    padding: 2rem 2rem;
+    font-size: 5rem;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+.btn-cifrar{
+    padding: 0.5rem 5rem;
+    font-size: 2rem;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+textarea{
+    border: 2px solid white;
+    width: 500px;
+    height: 200px;
+    font-size: 20px;
+}
