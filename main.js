@@ -20,6 +20,10 @@ function cifrado_Cesar() {
             cifrado += ' ';
             continue;
         }
+        if (dato[i] == '\n') {
+            cifrado += '\n';
+            continue;
+        }
         let num = (dato[i].charCodeAt(0) - a_i + clave) % 26 + a_i;
 
         cifrado += String.fromCharCode(num);
