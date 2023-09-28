@@ -1,0 +1,36 @@
+.container{
+    margin: 0 auto;
+    width: 90%;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.flex{
+    display: flex;
+}
+.text-center{
+    text-align: center;
+}
+.precio{
+    font-size: 50px;
+    color: aqua;
+}
+.columna{
+    background-color: rgb(239, 244, 249);
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(109, 106, 106);
+}
+.btn-precio{
+    background-color: salmon;
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-precio:hover{
+    background-color: rgb(254, 63, 42);
+}
